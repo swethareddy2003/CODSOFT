@@ -28,6 +28,13 @@ Note: It's a good practice to close the Scanner object when you're done using it
 Additionally, the use of an infinite loop (while(true)) and System.exit(0) for program termination may be reconsidered. You might want to provide a more user-friendly way to exit the program, such as adding an explicit exit option in the menu and breaking out of the loop when the user chooses to exit.
 
 
+
+
+
+
+
+
+
 NumberGame
 Here is explanation for code of NumberGame
 
