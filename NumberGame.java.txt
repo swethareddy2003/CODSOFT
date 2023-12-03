@@ -1,0 +1,44 @@
+import java.util.Scanner;
+public class NumberGame 
+{
+public static void main(String[] args)
+{
+Scanner sc=newScanner(System.in);
+int choice=8;
+int intital=0;
+boolean playAgain=true;
+Sytem.out.println("welcome freind");
+Sytem.out.println("hey you have about"+chance+"to win the game");
+while(playAgain){
+int rand=getrandN(1,100);
+boolean guess=false;
+for(int i=0;o<chances;i++)
+Sytem.out.println("chace"+(i+1)+" enter your guess:");
+int user=sc.nextint();
+if(user==rand){
+gues==true;
+finals+=1;
+Sytem.out.println("you won it");
+break;
+}
+else if (user>rand)
+Sytem.out.println("Too high");
+}
+else{
+Sytem.out.println("Too low");
+}
+}
+if(guess==false){
+Sytem.out.println("sorry friend you lost the game.The number is"+rand);
+}
+Sytem.out.println("do you want to play again(y/n)");
+String pA=sc.next();
+playAgain=pA.equalsIgnoreCase("y");
+}
+Sytem.out.println(" Thats it my friend ,Hope you enjoyed it");
+Sytem.out.println("Here is your score"+finals);
+public static int getrandN(int min,int max){
+return(int)(math.random()*(max-min+1)+min);
+}
+}
+
